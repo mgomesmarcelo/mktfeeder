@@ -1,0 +1,16 @@
+data/raw/
+data/output/
+data/logs/
+*.log
+*.zip
+*.tmp
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+chromedriver*
+selenium/
+*.key
+*.secret
+*.env
