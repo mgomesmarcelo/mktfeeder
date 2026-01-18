@@ -1,0 +1,267 @@
+﻿[18:10 Central Park]Ballymac Axel	"BACK"	1.0
+[18:10 Central Park]Watcha Gotcookin	"BACK"	1.0
+[18:10 Central Park]Hasty Lottie	"BACK"	1.0
+[18:30 Central Park]The Other Winx	"BACK"	1.0
+[18:30 Central Park]Bluejig Outlaw	"BACK"	1.0
+[18:30 Central Park]Sportsmans Rosa	"BACK"	1.0
+[18:50 Central Park]Fastlane Hoffa	"BACK"	1.0
+[18:50 Central Park]Pro Parker	"BACK"	1.0
+[18:50 Central Park]Hollybanks	"BACK"	1.0
+[19:10 Central Park]Mongys Wild	"BACK"	1.0
+[19:10 Central Park]Ballymac Madgie	"BACK"	1.0
+[19:10 Central Park]Deadly Disco	"BACK"	1.0
+[19:30 Central Park]Romeo Empire	"BACK"	1.0
+[19:30 Central Park]Crafty Prospero	"BACK"	1.0
+[19:30 Central Park]Princess Matilda	"BACK"	1.0
+[19:50 Central Park]Droopys Softy	"BACK"	1.0
+[19:50 Central Park]Havana Esesque	"BACK"	1.0
+[19:50 Central Park]Ferryforth Ella	"BACK"	1.0
+[20:10 Central Park]Bluejig Baron	"BACK"	1.0
+[20:10 Central Park]Lets Go Johnny	"BACK"	1.0
+[20:10 Central Park]Heygood Lookin	"BACK"	1.0
+[20:30 Central Park]One More Tune	"BACK"	1.0
+[20:30 Central Park]Good Rainbow	"BACK"	1.0
+[20:30 Central Park]Harlequin Taluka	"BACK"	1.0
+[20:50 Central Park]Yahoo Megan	"BACK"	1.0
+[20:50 Central Park]Sevenofdiamonds	"BACK"	1.0
+[20:50 Central Park]Cinderella Tell	"BACK"	1.0
+[21:10 Central Park]Snowdon Mel	"BACK"	1.0
+[21:10 Central Park]Droopys Bafta	"BACK"	1.0
+[21:10 Central Park]Autumn Fleadh	"BACK"	1.0
+[21:30 Central Park]Lets Go Girl	"BACK"	1.0
+[21:30 Central Park]Half Jarred	"BACK"	1.0
+[21:30 Central Park]Slick Skylark	"BACK"	1.0
+[18:06 Hove]Seomra Power	"BACK"	1.0
+[18:06 Hove]Pocket Hollie	"BACK"	1.0
+[18:06 Hove]My Tiny Trainer	"BACK"	1.0
+[18:26 Hove]Kerrs Delilah	"BACK"	1.0
+[18:26 Hove]Sly Bluebird	"BACK"	1.0
+[18:26 Hove]Jesse Gee James	"BACK"	1.0
+[18:46 Hove]Punk Rock Thief	"BACK"	1.0
+[18:46 Hove]Pips Gamble	"BACK"	1.0
+[18:46 Hove]We Are Leeds	"BACK"	1.0
+[19:06 Hove]Bingo Bullet	"BACK"	1.0
+[19:06 Hove]Farmway Shady	"BACK"	1.0
+[19:06 Hove]The Hill	"BACK"	1.0
+[19:26 Hove]Tivoli Milo	"BACK"	1.0
+[19:26 Hove]Teddys Sister	"BACK"	1.0
+[19:26 Hove]Slick Mick	"BACK"	1.0
+[19:46 Hove]Swift Chuck	"BACK"	1.0
+[19:46 Hove]Daring Duchess	"BACK"	1.0
+[19:46 Hove]Fauna Rae	"BACK"	1.0
+[20:06 Hove]Airlie Coogee	"BACK"	1.0
+[20:06 Hove]Galliagh Sky	"BACK"	1.0
+[20:06 Hove]Antigua Belle	"BACK"	1.0
+[20:26 Hove]Hypershock	"BACK"	1.0
+[20:26 Hove]Lets Go Yankees	"BACK"	1.0
+[20:26 Hove]Barley Mo	"BACK"	1.0
+[20:46 Hove]Streets Of Bono	"BACK"	1.0
+[20:46 Hove]Romantic Richy	"BACK"	1.0
+[20:46 Hove]Harlequin Windy	"BACK"	1.0
+[21:06 Hove]Radical Kylian	"BACK"	1.0
+[21:06 Hove]Kanturk Tony	"BACK"	1.0
+[21:06 Hove]Mertonaby Lad	"BACK"	1.0
+[21:26 Hove]Farout Cian	"BACK"	1.0
+[21:26 Hove]Mob De Souza	"BACK"	1.0
+[21:26 Hove]Attractionone	"BACK"	1.0
+[21:46 Hove]Droopys Lara	"BACK"	1.0
+[21:46 Hove]Snazzy Mary	"BACK"	1.0
+[21:46 Hove]Harlequin Libby	"BACK"	1.0
+[18:14 Monmore]Peejaythedeejay	"BACK"	1.0
+[18:14 Monmore]Relentless I Am	"BACK"	1.0
+[18:14 Monmore]Droopys Jessy	"BACK"	1.0
+[18:34 Monmore]Confident Ruby	"BACK"	1.0
+[18:34 Monmore]Aero Peart	"BACK"	1.0
+[18:34 Monmore]Whyaye Dubai	"BACK"	1.0
+[18:54 Monmore]Ayle Bucks	"BACK"	1.0
+[18:54 Monmore]Newinn Georgia	"BACK"	1.0
+[18:54 Monmore]Kilara Jag	"BACK"	1.0
+[19:14 Monmore]Aero Chubby	"BACK"	1.0
+[19:14 Monmore]Holding Gina	"BACK"	1.0
+[19:14 Monmore]Uphill Morsey	"BACK"	1.0
+[19:34 Monmore]Tullymurry Troy	"BACK"	1.0
+[19:34 Monmore]Bandit Paddy	"BACK"	1.0
+[19:34 Monmore]Hitit Agendavy	"BACK"	1.0
+[19:54 Monmore]Zenith Fotospor	"BACK"	1.0
+[19:54 Monmore]Longacres Cash	"BACK"	1.0
+[19:54 Monmore]Tree Top Copper	"BACK"	1.0
+[20:14 Monmore]Noduff Golf	"BACK"	1.0
+[20:14 Monmore]Longacres Shotta	"BACK"	1.0
+[20:14 Monmore]Without Wings	"BACK"	1.0
+[20:34 Monmore]Duchess	"BACK"	1.0
+[20:34 Monmore]Amazing Heather	"BACK"	1.0
+[20:34 Monmore]Suave Lily	"BACK"	1.0
+[20:54 Monmore]Photo Package	"BACK"	1.0
+[20:54 Monmore]Winnie Marie	"BACK"	1.0
+[20:54 Monmore]Mustang General	"BACK"	1.0
+[21:14 Monmore]Vixons Matt	"BACK"	1.0
+[21:14 Monmore]Droopys Admirer	"BACK"	1.0
+[21:14 Monmore]Sugar Girl Katie	"BACK"	1.0
+[21:34 Monmore]Cazzers Lass	"BACK"	1.0
+[21:34 Monmore]Bangon Erika	"BACK"	1.0
+[21:34 Monmore]Bounceback Bucks	"BACK"	1.0
+[21:50 Monmore]Aero Penda	"BACK"	1.0
+[21:50 Monmore]Swift Zoo	"BACK"	1.0
+[21:50 Monmore]Got The Large	"BACK"	1.0
+[18:20 Dunstall Park]Lemon Yoli	"BACK"	1.0
+[18:20 Dunstall Park]Point Break	"BACK"	1.0
+[18:20 Dunstall Park]Halcrow Saltire	"BACK"	1.0
+[18:38 Dunstall Park]Dadurunrun	"BACK"	1.0
+[18:38 Dunstall Park]Lynnia Max	"BACK"	1.0
+[18:38 Dunstall Park]King Richie	"BACK"	1.0
+[18:58 Dunstall Park]Amys Star	"BACK"	1.0
+[18:58 Dunstall Park]Swift Wag	"BACK"	1.0
+[18:58 Dunstall Park]Moanteen Molly	"BACK"	1.0
+[19:18 Dunstall Park]Mohican Lisa	"BACK"	1.0
+[19:18 Dunstall Park]Haka Luigi	"BACK"	1.0
+[19:18 Dunstall Park]Amazing Pixie	"BACK"	1.0
+[19:38 Dunstall Park]Crokers Bic	"BACK"	1.0
+[19:38 Dunstall Park]Moneypoint Wiljo	"BACK"	1.0
+[19:38 Dunstall Park]Jab And Run	"BACK"	1.0
+[19:58 Dunstall Park]Distant Maggie	"BACK"	1.0
+[19:58 Dunstall Park]Loveland	"BACK"	1.0
+[19:58 Dunstall Park]Ballymac Og	"BACK"	1.0
+[20:18 Dunstall Park]Ceejay Sparkle	"BACK"	1.0
+[20:18 Dunstall Park]Shortwood Design	"BACK"	1.0
+[20:18 Dunstall Park]Got One Better	"BACK"	1.0
+[20:38 Dunstall Park]Heathmill Nidge	"BACK"	1.0
+[20:38 Dunstall Park]Signet Maisie	"BACK"	1.0
+[20:38 Dunstall Park]Cappaneale Rocky	"BACK"	1.0
+[20:58 Dunstall Park]Swift Ida	"BACK"	1.0
+[20:58 Dunstall Park]Burrow Puma	"BACK"	1.0
+[20:58 Dunstall Park]Kelseys Angel	"BACK"	1.0
+[21:18 Dunstall Park]Mercia Thor	"BACK"	1.0
+[21:18 Dunstall Park]Distant Pablo	"BACK"	1.0
+[21:18 Dunstall Park]Ridgedale Zuni	"BACK"	1.0
+[21:38 Dunstall Park]Shockwave Suhail	"BACK"	1.0
+[21:38 Dunstall Park]Mohican Lucy	"BACK"	1.0
+[21:38 Dunstall Park]Limekiln Pam	"BACK"	1.0
+[21:54 Dunstall Park]Pandemonium Blue	"BACK"	1.0
+[21:54 Dunstall Park]Blazeaway Jorge	"BACK"	1.0
+[21:54 Dunstall Park]Darley Pope	"BACK"	1.0
+[18:42 Romford]Rapido Jane	"BACK"	1.0
+[18:42 Romford]Stonepark Susie	"BACK"	1.0
+[18:42 Romford]Knockdrinna Lass	"BACK"	1.0
+[19:02 Romford]Maxgrove Diamond	"BACK"	1.0
+[19:02 Romford]Hollywood Paso	"BACK"	1.0
+[19:02 Romford]Jeopardy Venus	"BACK"	1.0
+[19:22 Romford]Da Young Lad	"BACK"	1.0
+[19:22 Romford]Underground Zeus	"BACK"	1.0
+[19:22 Romford]El Regreso	"BACK"	1.0
+[19:42 Romford]Olwinn Swift	"BACK"	1.0
+[19:42 Romford]Miami Diversity	"BACK"	1.0
+[19:42 Romford]Crohane Topaz	"BACK"	1.0
+[20:02 Romford]Urry Up Nicky	"BACK"	1.0
+[20:02 Romford]Crossfield Becca	"BACK"	1.0
+[20:02 Romford]Mr Molesley	"BACK"	1.0
+[20:22 Romford]Queen Libianca	"BACK"	1.0
+[20:22 Romford]Little Gael	"BACK"	1.0
+[20:22 Romford]Bensourboy	"BACK"	1.0
+[20:42 Romford]Distant Rover	"BACK"	1.0
+[20:42 Romford]Bubbly Amber	"BACK"	1.0
+[20:42 Romford]Droopys Swanky	"BACK"	1.0
+[21:02 Romford]Smelly Nellie	"BACK"	1.0
+[21:02 Romford]Blackrose Bond	"BACK"	1.0
+[21:02 Romford]Pricey Emma	"BACK"	1.0
+[21:22 Romford]Mollycoddle	"BACK"	1.0
+[21:22 Romford]Miss Manage	"BACK"	1.0
+[21:22 Romford]Newtown Anna	"BACK"	1.0
+[21:42 Romford]Goulane Vegas	"BACK"	1.0
+[21:42 Romford]Bubbly Queenie	"BACK"	1.0
+[21:42 Romford]Hollywood Samba	"BACK"	1.0
+[21:58 Romford]Tip Top Niamh	"BACK"	1.0
+[21:58 Romford]Crossfield Amy	"BACK"	1.0
+[21:58 Romford]Jeopardy Raven	"BACK"	1.0
+[22:20 Romford]Siomhas Princess	"BACK"	1.0
+[22:20 Romford]Bubbly Thunder	"BACK"	1.0
+[22:20 Romford]Bombay Buck	"BACK"	1.0
+[18:04 Oxford]Savana Ripple	"BACK"	1.0
+[18:04 Oxford]Millbank Queenie	"BACK"	1.0
+[18:04 Oxford]Alohas Rascal	"BACK"	1.0
+[18:21 Oxford]All Long	"BACK"	1.0
+[18:21 Oxford]Silvertown Blues	"BACK"	1.0
+[18:21 Oxford]Ballymac Dashel	"BACK"	1.0
+[18:39 Oxford]Pauls Opinion	"BACK"	1.0
+[18:39 Oxford]Footfield Stitch	"BACK"	1.0
+[18:39 Oxford]Springwood Kane	"BACK"	1.0
+[18:56 Oxford]Gert Lush	"BACK"	1.0
+[18:56 Oxford]Baggios Nikita	"BACK"	1.0
+[18:56 Oxford]Savana Maggiemay	"BACK"	1.0
+[19:14 Oxford]Bristol Lad	"BACK"	1.0
+[19:14 Oxford]Ballydoyle Boo	"BACK"	1.0
+[19:14 Oxford]Maree Master	"BACK"	1.0
+[19:31 Oxford]Ballymac Lez	"BACK"	1.0
+[19:31 Oxford]Ballymac Mags	"BACK"	1.0
+[19:31 Oxford]Drews Fantasy	"BACK"	1.0
+[19:51 Oxford]Savana Sparky	"BACK"	1.0
+[19:51 Oxford]Savana Rip	"BACK"	1.0
+[19:51 Oxford]Hoxton Star	"BACK"	1.0
+[20:09 Oxford]Corcass Honey	"BACK"	1.0
+[20:09 Oxford]Hiya Blackie	"BACK"	1.0
+[20:09 Oxford]Savana Marylou	"BACK"	1.0
+[20:26 Oxford]Ballymac Indo	"BACK"	1.0
+[20:26 Oxford]Showemyourtail	"BACK"	1.0
+[20:26 Oxford]Jazzy Vibe	"BACK"	1.0
+[20:43 Oxford]Ballymac Shelly	"BACK"	1.0
+[20:43 Oxford]Ma Baker	"BACK"	1.0
+[20:43 Oxford]Classic Waltz	"BACK"	1.0
+[21:01 Oxford]Spot On Amethyst	"BACK"	1.0
+[21:01 Oxford]Mylane Curly	"BACK"	1.0
+[21:01 Oxford]Savana Ohmy Jo	"BACK"	1.0
+[21:18 Oxford]Savana Sakari	"BACK"	1.0
+[21:18 Oxford]Jurassic Joker	"BACK"	1.0
+[21:18 Oxford]Savana Boycie	"BACK"	1.0
+[18:11 Doncaster]Royal Flush	"BACK"	1.0
+[18:11 Doncaster]Emers Jazzy	"BACK"	1.0
+[18:11 Doncaster]Missyoulikecrazy	"BACK"	1.0
+[18:29 Doncaster]Cockney Summer	"BACK"	1.0
+[18:29 Doncaster]Ballymac Alexis	"BACK"	1.0
+[18:29 Doncaster]Stoneparkfortune	"BACK"	1.0
+[18:46 Doncaster]Roundies Shadow	"BACK"	1.0
+[18:46 Doncaster]Abigails Sunny	"BACK"	1.0
+[18:46 Doncaster]Grouchos Emily	"BACK"	1.0
+[19:04 Doncaster]The Frogs Legacy	"BACK"	1.0
+[19:04 Doncaster]Links Gloria	"BACK"	1.0
+[19:04 Doncaster]Cockneychampagne	"BACK"	1.0
+[19:24 Doncaster]Slaneyside Jan	"BACK"	1.0
+[19:24 Doncaster]Railteen Sarah	"BACK"	1.0
+[19:24 Doncaster]Abigail Surprise	"BACK"	1.0
+[19:42 Doncaster]Leahs Pat	"BACK"	1.0
+[19:42 Doncaster]Grovenor Apache	"BACK"	1.0
+[19:42 Doncaster]Ballinabola Zoey	"BACK"	1.0
+[19:58 Doncaster]Toddys Wolf	"BACK"	1.0
+[19:58 Doncaster]Slaneyside Swade	"BACK"	1.0
+[19:58 Doncaster]Grovenor Mona	"BACK"	1.0
+[20:16 Doncaster]Look Smart	"BACK"	1.0
+[20:16 Doncaster]Butlers Lane	"BACK"	1.0
+[20:16 Doncaster]Unanimous Leon	"BACK"	1.0
+[20:34 Doncaster]Sole Focus	"BACK"	1.0
+[20:34 Doncaster]Tiermana Blaze	"BACK"	1.0
+[20:34 Doncaster]Ballymac Alyssa	"BACK"	1.0
+[20:52 Doncaster]Haggard Badger	"BACK"	1.0
+[20:52 Doncaster]Bouncing Monarch	"BACK"	1.0
+[20:52 Doncaster]Soapy Suds	"BACK"	1.0
+[19:30 Sheffield]Catunda Missy	"BACK"	1.0
+[19:30 Sheffield]Thee Quiet Man	"BACK"	1.0
+[19:30 Sheffield]Lightfoot Rocky	"BACK"	1.0
+[19:47 Sheffield]Croagh Patrick	"BACK"	1.0
+[19:47 Sheffield]Corcass Ranger	"BACK"	1.0
+[19:47 Sheffield]Dapper Ted	"BACK"	1.0
+[20:04 Sheffield]Gurtnacrehy Mark	"BACK"	1.0
+[20:04 Sheffield]Joyces Sadie	"BACK"	1.0
+[20:04 Sheffield]Swift Usual	"BACK"	1.0
+[20:21 Sheffield]Colrose Blue	"BACK"	1.0
+[20:21 Sheffield]Keady Wine	"BACK"	1.0
+[20:21 Sheffield]Golfing Queen	"BACK"	1.0
+[20:38 Sheffield]Mustang Gracie	"BACK"	1.0
+[20:38 Sheffield]Station Cracker	"BACK"	1.0
+[20:38 Sheffield]The Other Coco	"BACK"	1.0
+[20:55 Sheffield]Colrose Flyer	"BACK"	1.0
+[20:55 Sheffield]Epic Estimate	"BACK"	1.0
+[20:55 Sheffield]Colrose Star	"BACK"	1.0
+[21:12 Sheffield]Crystal Bruno	"BACK"	1.0
+[21:12 Sheffield]Tatti Gamble	"BACK"	1.0
+[21:12 Sheffield]Rackethall Penny	"BACK"	1.0
+[21:29 Sheffield]Rowington Rebel	"BACK"	1.0
+[21:29 Sheffield]La Hermosa	"BACK"	1.0
+[21:29 Sheffield]Debbiethewitch	"BACK"	1.0
