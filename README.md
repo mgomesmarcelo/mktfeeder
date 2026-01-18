@@ -1,86 +1,64 @@
 # MktFeeder Greyhounds
 
-Pipeline em Python para gerar diariamente os arquivos consumidos pelo MarketFeeder via **reimport file every X seconds**.  
-O código não executa estratégia ao vivo; apenas prepara a lista diária (TOP3) para ser usada pelo MarketFeeder.
+Pipeline em Python para gerar diariamente arquivos consumidos pelo MarketFeeder via reimport automático (arquivo fixo). Não executa estratégia ao vivo; apenas prepara a lista diária.
 
 ## Requisitos
+- Windows
 - Python 3.10+
-- Google Chrome instalado (usado pelo Selenium)
+- Google Chrome instalado
+- Dependências: `pip install -r requirements.txt`
 
-Instale as dependências:
+## Instalação
 ```
 pip install -r requirements.txt
 ```
 
-## Como rodar
-Executa todo o fluxo (scrape Timeform + outputs + arquivo do MarketFeeder):
+## Como rodar (sempre como módulo)
+- Fluxo completo (scrape Timeform + outputs + arquivo do MarketFeeder):
 ```
-python scripts\run_daily.py
+python -m scripts.run_daily
 ```
-
-Gerar apenas TOP3/FORECAST (a partir do raw timeform_forecast do dia):
+- Apenas gerar TOP3/FORECAST (a partir do raw timeform_forecast do dia):
 ```
-python scripts\build_outputs.py
+python -m scripts.build_outputs
 ```
-
-Gerar apenas os arquivos do MarketFeeder (a partir do FORECAST do dia):
+- Apenas gerar arquivos do MarketFeeder (a partir do FORECAST do dia):
 ```
-python scripts\build_marketfeeder_file.py
+python -m scripts.build_marketfeeder_file
 ```
 
-## Estrutura de dados gerados
-- `data/raw/timeform_forecast/timeform_forecast_YYYY-MM-DD.csv` (Betting Forecast + Analyst Verdict)
-- `data/output/top3/top3_YYYY-MM-DD.csv` (Analyst Verdict TOP3)
-- `data/output/forecast/forecast_YYYY-MM-DD.csv` (Betting Forecast TOP3 + odds)
-- `data/output/marketfeeder/import_selections.txt` (arquivo fixo sobrescrito diariamente)
-- `data/output/marketfeeder/history/import_selections_YYYY-MM-DD.txt`
-- `data/output/marketfeeder/history/import_selections_YYYY-MM-DD_audit.csv`
-
-## Formato do arquivo fixo (MarketFeeder)
-Uma seleção por linha, com TABs reais entre colunas. As 3 linhas por corrida vêm do Betting Forecast (top3):
-```
-[HH:MM Track]Dog Name\t"STRATEGY_TAG"\tSTAKE
-```
-Exemplo:
-```
-[14:15 Hove]Dog Name 1\t"BACK"\t5.0
-```
-- `strategy_tag` fica em `imported_1` e `stake` em `imported_2` dentro do MarketFeeder.
-- Sempre 3 linhas por corrida elegível (TOP3).
-- Para evitar leitura no meio da escrita, o código grava primeiro em `import_selections.tmp` e depois substitui/renomeia para `import_selections.txt`.
-
-## Lógica de categorias e stakes
-Configuração em `src/mktfeeder_greyhounds/config.py`:
-- `BACK_CATEGORY_PREFIXES = ["A", "OR"]`
-- `LAY_CATEGORY_PREFIXES  = ["D", "HP"]`
-- `STAKE_BACK = 1.0`
-- `STAKE_LAY  = 1.0`
-- Se `category_norm` começar com qualquer prefixo de BACK → `"BACK"` / stake `STAKE_BACK`.
-- Se começar com prefixo de LAY → `"LAY"` / stake `STAKE_LAY`.
-- Caso contrário a corrida é ignorada.
-- `KEEP_ALL_ACTIVE = False` (se `True`, adiciona a linha `#all_active#` ao final do TXT).
-
-## Configurar o MarketFeeder
-1. Aponte o reimport para `data/output/marketfeeder/import_selections.txt`.
-2. Habilite reimport periódico.
-3. Use `imported_1` (strategy_tag) e `imported_2` (stake) nas triggers/regras.
-
-## Observações
-- Diretórios são criados automaticamente.
-- Encoding CSV: `utf-8-sig`.
-- Logs com `loguru` respeitando `LOG_LEVEL` no config.
-- O scraping usa Selenium + Chrome; mantenha o Chrome atualizado.
-
-## Logs
-- Logs são exibidos no terminal (stdout/stderr).
-- Logs também são gravados em `data/logs/mktfeeder.log` com rotação diária, retenção de 7 dias e compressão zip.
-- Diretório `data/logs/` é criado automaticamente.
+## O que o projeto gera
+- Raw Timeform: `data/raw/timeform_forecast/timeform_forecast_YYYY-MM-DD.csv` (Betting Forecast + Analyst Verdict)
+- TOP3: `data/output/top3/top3_YYYY-MM-DD.csv` (Analyst Verdict TOP3)
+- FORECAST: `data/output/forecast/forecast_YYYY-MM-DD.csv` (Betting Forecast TOP3 + odds)
+- MarketFeeder (fixo): `data/output/marketfeeder/import_selections.txt` (sobrescrito diariamente, escrito em `.tmp` e depois replace)
+- Histórico: `data/output/marketfeeder/history/import_selections_YYYY-MM-DD.txt`
+- Auditoria: `data/output/marketfeeder/history/import_selections_YYYY-MM-DD_audit.csv`
 
 ## Categorias e Prefixos (BACK/LAY)
-- A decisão BACK/LAY é por prefixo (`startswith`) em `category_norm`.
-- Se `BACK_CATEGORY_PREFIXES` contém "I", cobre `IV`, `IT` e qualquer categoria que comece com `I`.
-- Se `LAY_CATEGORY_PREFIXES` contém "HP", cobre apenas `HP` (não inclui `HC`). Para incluir `HC`, adicione "HC". Para cobrir `HP` e `HC`, use prefixo "H".
+- Decisão por `category_norm.startswith(prefix)`.
+- Prefixos curtos incluem subcategorias.
 - Exemplos:
-  - `BACK_CATEGORY_PREFIXES = ["A","OR","I"]` → cobre `A1..A10`, `OR/OR2/OR3`, `IV/IT`.
-  - `LAY_CATEGORY_PREFIXES = ["D","HP"]` → cobre `D1..D6` e `HP` apenas.
+  - Se `BACK_CATEGORY_PREFIXES` contém "I", inclui `IV` e `IT`.
+  - Se `LAY_CATEGORY_PREFIXES` contém "HP", inclui apenas `HP` (não `HC`).
+  - Para incluir `HC`, adicione "HC".
+  - Para incluir `HP` e `HC`, use prefixo "H".
 - Recomendações: use prefixos curtos para incluir subcategorias automaticamente e prefixos específicos para controle fino.
+
+## Configuração (config.py)
+- `STAKE_BACK` / `STAKE_LAY`: stake fixa.
+- `BACK_CATEGORY_PREFIXES` / `LAY_CATEGORY_PREFIXES`: prefixos de categoria.
+- `SKIP_PAST_RACES` + `PAST_RACE_GRACE_MINUTES`: filtro de corridas já iniciadas.
+- Diretórios de saída: `data/raw/`, `data/output/`, `data/logs/` (criados automaticamente).
+
+## Logs
+- Logs no console.
+- Logs em `data/logs/mktfeeder.log` com rotação diária, retenção 7 dias, compressão zip.
+- Diretório `data/logs/` é criado automaticamente.
+
+## Rodando 24/7 (recomendado)
+- Manual (PowerShell) na raiz do projeto:
+```
+python -m scripts.run_daily
+```
+- Agendado (Windows Task Scheduler): criar tarefa chamando `python -m scripts.run_daily` e definir “Start in” como a pasta raiz do projeto.
