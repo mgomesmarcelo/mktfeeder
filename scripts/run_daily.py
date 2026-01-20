@@ -1,5 +1,13 @@
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+# Garante que o projeto esteja no PYTHONPATH mesmo quando o script é iniciado via atalho.
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.mktfeeder_greyhounds.pipeline.daily_scrape import run as run_scrape
 from src.mktfeeder_greyhounds.pipeline.build_outputs import run as run_outputs
 from src.mktfeeder_greyhounds.pipeline.build_marketfeeder_import import run as run_marketfeeder
